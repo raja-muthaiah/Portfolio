@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raja Muthaiah C Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-icon" id="menu-icon" onclick="toggleMenu()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <ul id="menu">
+                <li ><a href="#about" class="menu-title">ABOUT</a></li>
+                <li><a href="#projects" class="menu-title">PROJECTS</a></li>
+                <li><a href="#skills" class="menu-title">SKILLS</a></li>
+                <li><a href="#certifications" class="menu-title">CERTIFICATIONS</a></li>
+                <li><a href="#contact" class="menu-title">CONTACT</a></li>
+            </ul>
+            <div class="theme-switcher">
+                <select id="theme">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Image" class="profile-img">
+        </div>
+        <div class="intro">
+            <h1 id="name-block" onclick="changeName()">RAJA MUTHAIAH C</h1>
+        </div>
+    </section>
+    <section id="about">
+        <h2 class="font-family: Arial, Helvetica, sans-serif;">About Me</h2>
+        <p>Highly motivated B.E. Electronics and Communication Engineering student, thriving in dynamic and collaborative environments. Committed to enhancing theoretical knowledge and practical experience to contribute to organizational success.</p>
+    </section>
+    <section id="projects">
+        <h2 class="font-family: Arial, Helvetica, sans-serif;">Projects</h2>
+        <div class="project-box">
+            <a href="https://github.com/raja-muthaiah/electricity-bill-prediction" style="text-decoration:none" >
+                <h1>Neonatal non-invasive Jaundice detection</h1>
+                Engaged in an ongoing project focused on the development of a non-invasive device for jaundice detection using optical spectroscopy
+            </a>
+        </div>
+        <div class="project-box">
+            <a href="https://github.com/raja-muthaiah/neonatal-jaundice-detection" style="text-decoration:none"> <h1 style="font-color:rgb(249, 250, 250);">Electricity bill prediction</h1>
+                Developed a predictive model for electricity price prediction.
+            </a>
+        </div>
+        <div class="project-box">
+            <a href="https://github.com/raja-muthaiah/CAPACITIVE-TOUCH-PIANO" style="text-decoration:none"><h1>Touch Capacitive Piano</h1>
+                Developed a touch-responsive piano system utilizing Arduino Uno to generate varied frequencies of sound in response to touch inputs
+            </a>
+        </div>
+        <div class="project-box">
+            <a href="https://github.com/raja-muthaiah/Domestic-Security-system" style="text-decoration:none"><h1>Domestic Security System</h1>
+                Created a home security system that sends text and call alerts upon detecting intruders, utilizing a GSM module interfaced with Arduino Uno
+            </a>
+        </div>
+    </section>
+    <section id="skills">
+        <h2 class="font-family: Arial, Helvetica, sans-serif;">Skills</h2>
+        <div class="cube-container" onclick="toggleSkillsView()">
+            <div class="cube">
+                <div class="face face1"><img src="C.png" class="skill-img"></div>
+                <div class="face face2"><img src="C++.png" class="skill-img"></div>
+                <div class="face face3"><img src="Python.png" class="skill-img"></div>
+                <div class="face face4"><img src="SQL.png" class="skill-img"></div>
+                <div class="face face5"><img src="CSS.png" class="skill-img"></div>
+                <div class="face face6"><img src="html.png" class="skill-img"></div>
+            </div>
+        </div>
+        <div class="skills-list" id="skills-list" onclick="toggleSkillsView()">
+            <ul>
+                <li>C++</li>
+                <li>C</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+    </section>
+    <section id="certifications">
+        <h2 class="font-family: Arial, Helvetica, sans-serif;">Certifications</h2>
+        <div class="certificates">
+            <table>
+                <tr>
+                    <td><img src="cert1.jpg" alt="Certificate 1"><br>Certificate 1</td>
+                    <td><img src="cert2.jpg" alt="Certificate 2"><br>Certificate 2</td>
+                    <td><img src="cert3.jpg" alt="Certificate 3"><br>Certificate 3</td>
+                </tr>
+                <tr>
+                    <td><img src="cert4.jpg" alt="Certificate 4"><br>Certificate 4</td>
+                    <td><img src="cert5.jpg" alt="Certificate 5"><br>Certificate 5</td>
+                    <td><img src="cert6.jpg" alt="Certificate 6"><br>Certificate 6</td>
+                </tr>
+                <tr>
+                    <td><img src="cert7.jpg" alt="Certificate 7"><br>Certificate 7</td>
+                    <td><img src="cert8.jpg" alt="Certificate 8"><br>Certificate 8</td>
+                    <td><img src="cert9.jpg" alt="Certificate 9"><br>Certificate 9</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="contact">
+        <h2 class="font-family: Arial, Helvetica, sans-serif;">Contact</h2>
+        <div class="contact-info">
+            <div>
+                <img src="mail.png"  class="logo" alt="Email Icon">
+                <a href="mailto:rajamuthaiah984@gmail.com">rajamuthaiah984@gmail.com</a>
+            </div>
+            <div>
+                <img src="call.png" class="logo" alt="Phone Icon">
+                <a href="tel:+917845517720">+91 7845517720</a>
+            </div>
+            <div>
+                <img src="linkedin.png" class="logo" alt="LinkedIn Icon">
+                <a href="https://linkedin.com/in/raja-muthaiah">linkedin.com/in/raja-muthaiah</a>
+            </div>
+            <div>
+                <img src="hackerrank.png" class="logo" alt="HackerRank Icon">
+                <a href="https://www.hackerrank.com/rajamuthaiah">hackerrank.com/rajamuthaiah</a>
+            </div>
+            <div>
+                <img src="github.png" class="logo" alt="GitHub Icon">
+                <a href="https://github.com/raja-muthaiah">github.com/raja-muthaiah</a>
+            </div>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
