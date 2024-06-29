@@ -1,7 +1,7 @@
 function changeName() {
     const nameBlock = document.getElementById('name-block');
     if (nameBlock.innerText === 'RAJA MUTHAIAH C') {
-        nameBlock.innerText = 'ச. ராஜா முத்தையா';
+        nameBlock.innerText = 'ராஜா முத்தையா .ச';
     } else {
         nameBlock.innerText = 'RAJA MUTHAIAH C';
     }
