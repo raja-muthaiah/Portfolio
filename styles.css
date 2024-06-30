@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url("bg_light.jpg");  
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -78,10 +79,10 @@ nav ul li a:hover {
 }
 
 .profile-img {
-    border-radius: 50%;
     width: 350px;
-    height: 380px;
-    border: 1px solid;
+    height: 430px;
+    border: 0.5px solid;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
@@ -296,8 +297,8 @@ ul li {
 
 /* Light theme */
 body.light {
-    background-color: white;
     color: #2c3e50;
+    background-image: url("bg_light.jpg"); /* Assuming the image is in a folder named "images" */
 }
 
 body.light nav {
@@ -310,7 +311,10 @@ body.light .project-box {
 
 /* Dark theme */
 body.dark {
-    background-color: black;
+    background-image: url("bg_dark.avif");
+    background-size: cover;
+    background-repeat: no-repeat; /* Optional: prevents tiling if image doesn't cover */
+    height: 550vh;
     color: white;
 }
 
