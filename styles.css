@@ -312,8 +312,7 @@ body.light .project-box {
 /* Dark theme */
 body.dark {
     background-image: url("bg_dark.avif");
-    background-size: cover;
-    background-repeat: no-repeat; /* Optional: prevents tiling if image doesn't cover */
+    background-size: cover;/* Optional: prevents tiling if image doesn't cover */
     height: 550vh;
     color: white;
 }
